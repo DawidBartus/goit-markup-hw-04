@@ -139,8 +139,13 @@ footer .container {
 }
 /* agencja */
 .main__section {
-  background-color: #2f303a;
+  /* background-color: #2f303a; */
   text-align: center;
+  background-image: url("../images/background-header.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
 }
 .section {
   padding-top: var(--section-padding);
