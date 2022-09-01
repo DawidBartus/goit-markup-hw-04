@@ -310,6 +310,7 @@ footer .container {
 /* SVG section */
 
 .lorem__svg {
+  display: flex;
   width: 270px;
   height: 120px;
   background-color: #f5f4fa;
@@ -346,4 +347,9 @@ footer .container {
 .social__media ul {
   display: flex;
   gap: 10px;
+}
+.lorem__svg__element {
+  width: 70px;
+  height: 70px;
+  margin: auto auto;
 }
