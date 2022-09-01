@@ -103,12 +103,20 @@ header {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--grey-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: var(--grey-color);
 }
 .header__contact__a:hover {
   color: var(--company-color);
+  fill: var(--company-color);
 }
 .header__phone {
-  margin-left: 50px;
+  margin-left: 30px;
+}
+.contact__list {
+  display: flex;
 }
 .footer__section {
   background-color: #2f303a;
@@ -139,10 +147,11 @@ footer .container {
 }
 /* agencja */
 .main__section {
-  /* background-color: #2f303a; */
   text-align: center;
   background-image: url("../images/background-header.jpg");
-  background-size: contain;
+  background-color: #2f303a66;
+  background-blend-mode: difference;
+  background-size: 1600px;
   background-position: center;
   background-repeat: no-repeat;
   height: 600px;
@@ -181,6 +190,7 @@ footer .container {
   font-family: "Roboto", sans-serif;
   width: 200px;
   height: 50px;
+  box-shadow: 0px 4px 4px 0px #00000026;
 }
 .description ul {
   display: flex;
@@ -225,6 +235,9 @@ footer .container {
   background-color: #ffffff;
   margin: 0 auto;
   border-radius: 3px;
+  box-shadow: 0px 2px 1px 0px #00000033;
+  box-shadow: 0px 1px 1px 0px #00000024;
+  box-shadow: 0px 1px 3px 0px #0000001f;
 }
 .team__description {
   text-align: center;
@@ -281,12 +294,20 @@ footer .container {
   background-color: var(--company-color);
   color: #ffffff;
   border-radius: 3px;
+  box-shadow: 0px 2px 2px 0px #0000001f;
+  box-shadow: 0px 1px 2px 0px #00000014;
+  box-shadow: 0px 3px 1px 0px #0000001a;
 }
 .portfolio__list__a {
   display: block;
   text-decoration: none;
   color: inherit;
   /* border: 1px solid #eeeeee; */
+}
+.portfolio__list__a:hover {
+  box-shadow: 1px 4px 6px 0px #00000029;
+  box-shadow: 0px 4px 4px 0px #0000000f;
+  box-shadow: 0px 1px 1px 0px #0000001f;
 }
 .portfolio__border {
   border: 1px solid #eeeeee;
@@ -321,19 +342,24 @@ footer .container {
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 3px;
+  display: flex;
 }
 .client__sgv:hover {
-  border-color: #2196f3;
+  border-color: var(--company-color);
+  cursor: pointer;
 }
 .social__media__icon {
   width: 44px;
   height: 44px;
-  background-color: red;
-  display: block;
+  background-color: #ffffff;
+  display: flex;
   border-radius: 50%;
+  fill: #afb1b8;
 }
 .social__media__icon:hover {
-  background-color: #2196f3;
+  background-color: var(--company-color);
+  fill: #ffffff;
+  cursor: pointer;
 }
 .social__media {
   margin-left: 70px;
@@ -352,4 +378,35 @@ footer .container {
   width: 70px;
   height: 70px;
   margin: auto auto;
+}
+.social__media__svg {
+  width: 20px;
+  height: 20px;
+  margin: auto;
+}
+.client__svg__size {
+  width: 106px;
+  height: 60px;
+  margin: auto;
+}
+.footer__social__media {
+  width: 44px;
+  height: 44px;
+  background-color: #ffffff1a;
+  display: flex;
+  border-radius: 50%;
+  fill: #afb1b8;
+}
+.footer__social__media:hover {
+  background-color: var(--company-color);
+  cursor: pointer;
+}
+.footer__social__svg {
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  fill: #ffffff;
+}
+.contact__svg {
+  margin-right: 10px;
 }
