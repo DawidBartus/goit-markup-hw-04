@@ -355,6 +355,7 @@ footer .container {
 .client__svg:focus {
   border-color: var(--company-color);
   cursor: pointer;
+  /* fill: #2196f3; */
 }
 .social__media__icon {
   width: 44px;
@@ -391,6 +392,11 @@ footer .container {
 }
 .client__svg__size {
   margin: auto;
+  fill: #afb1b8;
+}
+.client__svg__size:hover,
+.client__svg__size:focus {
+  fill: #2196f3;
 }
 .footer__social__media {
   width: 44px;
