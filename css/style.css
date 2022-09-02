@@ -384,11 +384,9 @@ footer .container {
   gap: 10px;
 }
 .lorem__svg__element {
-  margin: auto auto;
+  margin: auto;
 }
 .social__media__svg {
-  width: 20px;
-  height: 20px;
   margin: auto;
 }
 .client__svg__size {
