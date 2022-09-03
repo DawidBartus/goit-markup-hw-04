@@ -351,12 +351,17 @@ footer .container {
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  display: block;
   fill: var(--grey-color);
 }
 .client__svg:hover,
 .client__svg:focus {
   fill: var(--company-color);
   border-color: var(--company-color);
+}
+.client__svg__size {
+  width: inherit;
+  height: inherit;
 }
 .social__media__icon {
   width: 44px;
