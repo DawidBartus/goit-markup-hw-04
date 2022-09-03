@@ -62,7 +62,8 @@ header {
   letter-spacing: 0.02em;
   font-weight: 500;
 }
-.menu__a:hover {
+.menu__a:hover,
+.menu__a:focus {
   color: var(--company-color);
 }
 .menu__a__active {
@@ -109,7 +110,8 @@ header {
   align-items: center;
   fill: var(--grey-color);
 }
-.header__contact__a:hover {
+.header__contact__a:hover,
+.header__contact__a:focus {
   color: var(--company-color);
   fill: var(--company-color);
 }
@@ -136,7 +138,8 @@ header {
   text-decoration: none;
   color: #ffffff99;
 }
-.footer__contact__a:hover {
+.footer__contact__a:hover,
+.footer__contact__a:focus {
   color: var(--company-color);
 }
 .footer__list li:first-child {
@@ -311,7 +314,8 @@ footer .container {
   text-decoration: none;
   color: inherit;
 }
-.portfolio__list__a:hover {
+.portfolio__list__a:hover,
+.portfolio__list__a:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
